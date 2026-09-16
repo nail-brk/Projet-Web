@@ -1,0 +1,136 @@
+/*******************************************************************************
+ *
+ * Nom : style.css
+ * Date et auteur :
+ *		Créé le 16/09/2026 par Nail BRIK
+ *
+ * Description :
+ *		Fichier CSS du TP initiation au langage développement Web
+ *
+ *******************************************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height : 1.5em;
+}
+
+header {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+section {
+    margin : 10px;
+    padding : 10px;
+}
+
+article {
+    margin : 10px;
+    padding : 10px;
+    border: 2px dashed gray;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+h2 {
+    padding: 10px;
+    background-color: red;
+    border-left: 50px solid black;
+    text-transform: capitalize;
+}
+
+#info {
+    width: 600px;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding: 10px;
+    margin: auto;
+}
+
+.documentation {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.documentation a {
+    text-decoration : none;
+    background-color : darkgreen;
+    color : yellowgreen;
+    padding : 5px;
+}
+
+.documentation a:hover {
+    background-color : lightgreen;
+    color : darkgreen
+}
+
+.code {
+    font-family: courier, monospace;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pre {
+    margin: 10px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin: auto; 
+    line-height: 2em;
+}
+
+th {
+    background-color: navy;
+    color: white;
+    height: 3em;
+}
+
+td, th {
+    border : solid 1px black;
+    padding : 10px;
+    text-align : center;
+}
+
+tr:nth-child(even) {
+    background-color : lightblue;
+}
+
+tr:last-child {
+    color : blue;
+}
+
