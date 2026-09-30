@@ -1,4 +1,28 @@
+/// je voulais essayer de les faire mais elles servent à rien ici
 
+/*function setCookie(name, value, days){
+    let expires ="";
+    if(days){
+        let date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        expires="; expires="+ date.toUTCString();
+
+        document.cookie = name+ "="+ (value || "") + expires + "; path=/";
+
+    }
+}
+
+function getCookie(name){
+    let nameEq = name + "=";
+    let tabcookie = document.cookie.split(';');
+    for (let i=0; i<tabcookie.length;i++){
+        let cookie=tabcookie[i];
+        while (cookie.charAt(0)== ' ') 
+            cookie= cookie.substring(1, c.length);
+        if(cookie.indexOf(nameEq)==0)
+            return cookie.substring(nameEq.length, cookie.length);
+    }
+}*/
 
 function todoApp(){
     return {
